@@ -1,0 +1,141 @@
+/* Global style */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.heading-two {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: #2e2f42;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.heading-three {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* Header */
+.header {
+  background-color: #fff;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-part {
+  color: #2e2f42;
+}
+
+.logo-part-footer {
+  color: #f4f4fd;
+}
+.nav-link {
+  font-weight: 500;
+  color: #2e2f42;
+}
+.nav-link-studio {
+  font-weight: 500;
+  color: #2e2f42;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+/* .nav-link-studio:active {
+  color: #404bbf;
+  text-decoration: underline;
+} */
+
+.contacts {
+  font-style: normal;
+}
+
+.contacts-link {
+  color: #434455;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
+}
+/* Header content */
+.header-content {
+  background-color: #2e2f42;
+}
+
+.header-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  color: #fff;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.header-button {
+  background-color: #4d5ae5;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  cursor: pointer;
+}
+
+.header-button:hover,
+.header-button:focus {
+  background-color: #404bbf;
+}
+
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.team-member {
+  background-color: #fff;
+}
+.footer {
+  background-color: #2e2f42;
+}
+.footer-text {
+  color: #f4f4fd;
+}
