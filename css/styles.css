@@ -75,6 +75,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .heading-three {
@@ -83,6 +84,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .paragraph {
@@ -100,6 +102,10 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 24px;
+}
+
+.header-boder {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .logo {
@@ -201,12 +207,43 @@ body {
   background-color: #404bbf;
 }
 
+.core-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.core-item {
+  width: 264px;
+  display: block;
+}
+
 .team-section {
   background-color: #f4f4fd;
 }
 
-.team-member {
+.team-member-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.card-text {
+  padding: 32px 16px;
+}
+
+.team-member-card {
+  text-align: center;
+  width: 264px;
   background-color: #fff;
+  border-radius: 0 0 4px 4px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
 }
 
 .footer {
@@ -214,5 +251,7 @@ body {
 }
 
 .footer-text {
+  margin-top: 16px;
+  width: 264px;
   color: #f4f4fd;
 }
