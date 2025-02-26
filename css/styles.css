@@ -50,8 +50,7 @@ body {
 
 .container {
   max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px 0 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -61,8 +60,18 @@ body {
   padding-bottom: 120px;
 }
 
-.hide {
-  display: none;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* Global styles */
@@ -100,8 +109,9 @@ body {
 .header {
   background-color: #fff;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  padding: 24px;
+  /* padding: 24px; */
 }
 
 .header-boder {
@@ -118,6 +128,10 @@ body {
   color: #4d5ae5;
 }
 
+.header-logo {
+  margin-right: 76px;
+}
+
 .logo-part-header {
   color: #2e2f42;
 }
@@ -129,7 +143,6 @@ body {
 .nav {
   display: flex;
   align-items: center;
-  gap: 76px;
 }
 
 .menu {
@@ -147,6 +160,8 @@ body {
 .nav-link {
   font-weight: 500;
   color: #2e2f42;
+  padding: 24px 0;
+  display: inline-block;
 }
 
 .nav-link:hover,
@@ -171,7 +186,7 @@ body {
 
 .header-content {
   background-color: #2e2f42;
-  padding: 188px;
+  padding: 188px 0;
 }
 
 .header-title {
@@ -186,6 +201,7 @@ body {
 }
 
 .header-button {
+  min-width: 169px;
   display: block;
   margin: auto;
   background-color: #4d5ae5;
@@ -228,8 +244,8 @@ body {
   justify-content: center;
 }
 
-.card-text {
-  padding: 32px 16px;
+.team-member-card-text {
+  padding: 32px 0;
 }
 
 .team-member-card {
@@ -242,16 +258,27 @@ body {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
   justify-content: center;
+}
+
+.project-card-text {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-text {
-  margin-top: 16px;
   width: 264px;
   color: #f4f4fd;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
