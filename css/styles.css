@@ -111,10 +111,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* padding: 24px; */
-}
-
-.header-boder {
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -250,7 +246,7 @@ body {
 
 .team-member-card {
   text-align: center;
-  width: 264px;
+  flex-basis: calc((100% - 72px) / 4);
   background-color: #fff;
   border-radius: 0 0 4px 4px;
 }
@@ -261,6 +257,10 @@ body {
   column-gap: 24px;
   row-gap: 48px;
   justify-content: center;
+}
+
+.project-card {
+  width: calc((100% - 48px) / 3);
 }
 
 .project-card-text {
