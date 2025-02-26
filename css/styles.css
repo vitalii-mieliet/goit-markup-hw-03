@@ -61,6 +61,10 @@ body {
   padding-bottom: 120px;
 }
 
+.hide {
+  display: none;
+}
+
 /* Global styles */
 
 .heading-two {
@@ -90,8 +94,12 @@ body {
 }
 
 /* Header */
+
 .header {
   background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
 }
 
 .logo {
@@ -104,13 +112,32 @@ body {
   color: #4d5ae5;
 }
 
-.logo-part {
+.logo-part-header {
   color: #2e2f42;
 }
 
 .logo-part-footer {
   color: #f4f4fd;
 }
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 76px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.contacts-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
 .nav-link {
   font-weight: 500;
   color: #2e2f42;
@@ -135,6 +162,7 @@ body {
 }
 
 /* Header content */
+
 .header-content {
   background-color: #2e2f42;
 }
