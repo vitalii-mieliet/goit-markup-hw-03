@@ -1,5 +1,44 @@
-/* Global style */
+/* Reset CSS */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+/* Global styles */
+
 body {
+  margin: 0;
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #fff;
@@ -9,14 +48,20 @@ body {
   letter-spacing: 0.02em;
 }
 
-ul,
-ol {
-  list-style-type: none;
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-a {
-  text-decoration: none;
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
+
+/* Global styles */
 
 .heading-two {
   font-weight: 700;
@@ -27,6 +72,7 @@ a {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+
 .heading-three {
   font-weight: 500;
   font-size: 20px;
@@ -69,20 +115,11 @@ a {
   font-weight: 500;
   color: #2e2f42;
 }
-.nav-link-studio {
-  font-weight: 500;
-  color: #2e2f42;
-}
 
 .nav-link:hover,
 .nav-link:focus {
   color: #404bbf;
 }
-
-/* .nav-link-studio:active {
-  color: #404bbf;
-  text-decoration: underline;
-} */
 
 .contacts {
   font-style: normal;
@@ -96,6 +133,7 @@ a {
 .contacts-link:focus {
   color: #404bbf;
 }
+
 /* Header content */
 .header-content {
   background-color: #2e2f42;
@@ -133,9 +171,11 @@ a {
 .team-member {
   background-color: #fff;
 }
+
 .footer {
   background-color: #2e2f42;
 }
+
 .footer-text {
   color: #f4f4fd;
 }
