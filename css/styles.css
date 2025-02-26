@@ -108,10 +108,13 @@ body {
 
 .header {
   background-color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   border-bottom: 1px solid #e7e9fc;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -180,12 +183,12 @@ body {
 
 /* Header content */
 
-.header-content {
+.hero {
   background-color: #2e2f42;
   padding: 188px 0;
 }
 
-.header-title {
+.hero-title {
   max-width: 496px;
   font-weight: 700;
   font-size: 56px;
@@ -196,7 +199,7 @@ body {
   margin: 0 auto 48px;
 }
 
-.header-button {
+.hero-button {
   min-width: 169px;
   display: block;
   margin: auto;
@@ -214,8 +217,8 @@ body {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
-.header-button:hover,
-.header-button:focus {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
 }
 
