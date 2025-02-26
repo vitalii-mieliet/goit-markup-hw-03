@@ -165,18 +165,23 @@ body {
 
 .header-content {
   background-color: #2e2f42;
+  padding: 188px;
 }
 
 .header-title {
+  max-width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   color: #fff;
   letter-spacing: 0.02em;
   text-align: center;
+  margin: 0 auto 48px;
 }
 
 .header-button {
+  display: block;
+  margin: auto;
   background-color: #4d5ae5;
   font-family: inherit;
   font-weight: 500;
@@ -185,6 +190,10 @@ body {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 16px 32px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .header-button:hover,
